@@ -2,10 +2,16 @@
   "name": "social-network",
   "version": "1.0.0",
   "description": "A social network web app where users can share their thoughts, create a friend list and view theirs as well.",
-  "main": "src/server.js",
+  "main": "server.js",
+  "type":"module",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js",
     "seed": "node src/utils/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiecaelwaerts/socialNetwork.git"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
