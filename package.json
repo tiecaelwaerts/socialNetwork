@@ -1,6 +1,16 @@
 {
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "A social network web app where users can share their thoughts, create a friend list and view theirs as well.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/utils/seed.js"
+  },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.12.1"
-  }
+  },
+  "author": "Tyler Caelwerts"
 }
